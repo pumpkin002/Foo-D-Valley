@@ -1,0 +1,9 @@
+/* App.css */
+
+#main {
+  min-height: 100vh;
+  /* background-color: #ffd6cc; */
+  /* background: url('https://media.istockphoto.com/id/526130810/photo/old-scratched-wooden-cutting-board-texture.jpg?s=612x612&w=0&k=20&c=0qBzFB3HDS4JtkmyaUFYfTrnGMvC3QpdR9alLSeARKs=') no-repeat center center fixed; */
+  background-size: cover;
+  font-family: 'Segoe UI', sans-serif;
+}

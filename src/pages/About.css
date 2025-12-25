@@ -1,0 +1,151 @@
+.about-container {
+  padding: 50px 20px;
+  background-color: #fffaf7;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.about-container h1 {
+  text-align: center;
+  color: #b0413e;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  font-family: 'Pacifico', cursive;
+}
+
+.logo-d {
+  font-size: 2.2rem;
+  color: #ff7043;
+}
+
+.about-section {
+  margin-top: 30px;
+}
+
+.about-section h2 {
+  font-size: 1.6rem;
+  color: #b0413e;
+  margin-bottom: 10px;
+}
+
+.about-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-section li {
+  margin-bottom: 8px;
+  font-size: 1rem;
+  padding-left: 1.2em;
+  position: relative;
+}
+
+.about-section li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #ff7043;
+}
+
+.social-links {
+  margin-top: 15px;
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #b0413e;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s ease;
+}
+
+.social-links a .icon {
+  font-size: 1.4rem;
+  margin-right: 8px;
+  transition: transform 0.2s ease;
+}
+
+.social-links a:hover {
+  color: #ff7043;
+}
+
+.social-links a:hover .icon {
+  transform: scale(1.1);
+}
+
+/* Footer Section */
+.site-footer {
+  background-color: #fff0eb;
+  padding: 50px 0;
+  margin-top: 60px;
+  border-top: 2px solid #ffd5c2;
+  font-family: 'Segoe UI', sans-serif;
+  color: #b0413e;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.footer-logo-text {
+  margin-bottom: 15px;
+}
+
+.footer-logo-link {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #b0413e;
+  text-decoration: none;
+  font-family: 'Pacifico', cursive;
+}
+
+.footer-logo-link .logo-d {
+  font-size: 2.2rem;
+  margin: 0 4px;
+  color: #ff7043;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #b0413e;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #ff7043;
+}
+
+.back-to-top {
+  margin-top: 20px;
+  padding: 10px 18px;
+  background-color: #ff7043;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.back-to-top:hover {
+  background-color: #e64a19;
+  transform: translateY(-2px);
+}

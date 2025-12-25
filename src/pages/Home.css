@@ -1,0 +1,281 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ========== Hero Section ========== */
+.hero-section {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+}
+
+/* Slideshow backgrounds */
+.hero-slideshow {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.hero-slide {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  animation: fade 15s infinite;
+}
+
+.hero-slide:nth-child(1) {
+  background-image: url('https://t3.ftcdn.net/jpg/04/47/32/76/360_F_447327642_8GPzgX01OZsMAxbP1AsyjhreGmAMCHMD.jpg');
+  animation-delay: 0s;
+}
+.hero-slide:nth-child(2) {
+  background-image: url('https://t4.ftcdn.net/jpg/02/47/84/83/360_F_247848348_c9xNhBpQ2aAS4UuSkz52n3BaeY6bXhmz.jpg');
+  animation-delay: 5s;
+}
+.hero-slide:nth-child(3) {
+  background-image: url('https://static.vecteezy.com/system/resources/previews/020/115/455/large_2x/food-background-breakfast-with-yogurt-granola-or-muesli-strawberries-banner-image-for-website-photo.jpg');
+  animation-delay: 10s;
+}
+.hero-slide:nth-child(4){
+  background-image: url('https://thumbs.dreamstime.com/b/mexican-food-mix-colorful-background-mexico-66442136.jpg');
+  animation-delay: 15s ;
+}
+
+@keyframes fade {
+  0%, 100% { opacity: 0; }
+  10%, 30% { opacity: 1; }
+  40%, 90% { opacity: 0; }
+}
+
+/* Hero content overlay */
+.hero-overlay {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  top: 20%;
+  text-align: center;
+}
+
+.hero-overlay h1 {
+  font-size: 3rem;
+  color: #b0413e;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.hero-overlay p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.explore-button {
+  background-color: #ff7043;
+  color: white;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.explore-button:hover {
+  background-color: #e64a19;
+}
+
+/* ========== Features Section ========== */
+.features-section {
+  padding: 60px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.features-section h2 {
+  font-size: 2rem;
+  color: #b0413e;
+  margin-bottom: 30px;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  background-color: #fff5f0;
+  padding: 20px;
+  border-radius: 12px;
+  width: 280px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.feature-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #b0413e;
+}
+
+.feature-card p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* ========== Recipes Preview Section ========== */
+.home-recipes-preview {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.home-recipes-preview h2 {
+  font-size: 1.8rem;
+  color: #b0413e;
+  margin-bottom: 20px;
+}
+
+.recipe-preview-row {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.preview-card {
+  width: 200px;
+  background-color: #fff5f0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.preview-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.preview-card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.preview-card:hover img {
+  transform: scale(1.1);
+}
+
+.preview-card h4 {
+  padding: 10px;
+  font-size: 1rem;
+  color: #b0413e;
+  text-align: center;
+}
+
+.more-button {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff7043;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.more-button:hover {
+  background-color: #e64a19;
+}
+
+/* ========== Footer ========== */
+/* ========== Redesigned Footer ========== */
+/* ========== Compact Redesigned Footer ========== */
+.site-footer {
+  background-color: #fff0eb;
+  padding: 50px 0;
+  margin-top: 60px;
+  border-top: 2px solid #ffd5c2;
+  font-family: 'Segoe UI', sans-serif;
+  color: #b0413e;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.footer-logo-text {
+  margin-bottom: 15px;
+}
+
+.footer-logo-link {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #b0413e;
+  text-decoration: none;
+  font-family: 'Pacifico', cursive;
+  display: inline-block;
+}
+
+.footer-logo-link .logo-d {
+  font-size: 2.2rem;
+  margin: 0 4px;
+  color: #ff7043;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #b0413e;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #ff7043;
+}
+
+.back-to-top {
+  margin-top: 20px;
+  padding: 10px 18px;
+  background-color: #ff7043;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.back-to-top:hover {
+  background-color: #e64a19;
+  transform: translateY(-2px);
+}   
+
