@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/food-web/static/css/main.632c063c.css",
+    "main.js": "/food-web/static/js/main.97a4214e.js",
+    "static/js/453.5538221f.chunk.js": "/food-web/static/js/453.5538221f.chunk.js",
+    "index.html": "/food-web/index.html",
+    "main.632c063c.css.map": "/food-web/static/css/main.632c063c.css.map",
+    "main.97a4214e.js.map": "/food-web/static/js/main.97a4214e.js.map",
+    "453.5538221f.chunk.js.map": "/food-web/static/js/453.5538221f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.632c063c.css",
+    "static/js/main.97a4214e.js"
+  ]
+}
