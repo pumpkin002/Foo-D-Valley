@@ -8,7 +8,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: linear-gradient(90deg, #ff7a3d, #ff5722); /* upgraded warm orange gradient */
+  background: linear-gradient(90deg, #ff7a3d, #ff5722);
   padding: 12px 24px;
   color: white;
   font-family: 'Segoe UI', sans-serif;
@@ -50,7 +50,7 @@
 }
 
 .navbar-links a:hover {
-  color: #ffd6b3; /* lighter orange for hover */
+  color: #ffd6b3;
 }
 
 .navbar-search {
@@ -76,13 +76,22 @@
   padding: 6px 12px;
   border: none;
   border-radius: 0 20px 20px 0;
-  background-color: #e64a19; /* deeper orange for button */
+  background-color: #e64a19;
   color: white;
   cursor: pointer;
   font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   transition: background-color 0.3s ease;
 }
 
 .navbar-search button:hover {
   background-color: #d84315;
+}
+
+.navbar-search button svg {
+  width: 16px;
+  height: 16px;
+  color: white;
 }
