@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/food-web/static/css/main.632c063c.css",
-    "main.js": "/food-web/static/js/main.97a4214e.js",
-    "static/js/453.5538221f.chunk.js": "/food-web/static/js/453.5538221f.chunk.js",
-    "index.html": "/food-web/index.html",
-    "main.632c063c.css.map": "/food-web/static/css/main.632c063c.css.map",
-    "main.97a4214e.js.map": "/food-web/static/js/main.97a4214e.js.map",
-    "453.5538221f.chunk.js.map": "/food-web/static/js/453.5538221f.chunk.js.map"
+    "main.css": "/Foo-D-Valley/static/css/main.632c063c.css",
+    "main.js": "/Foo-D-Valley/static/js/main.c04b8091.js",
+    "static/js/453.5538221f.chunk.js": "/Foo-D-Valley/static/js/453.5538221f.chunk.js",
+    "index.html": "/Foo-D-Valley/index.html",
+    "main.632c063c.css.map": "/Foo-D-Valley/static/css/main.632c063c.css.map",
+    "main.c04b8091.js.map": "/Foo-D-Valley/static/js/main.c04b8091.js.map",
+    "453.5538221f.chunk.js.map": "/Foo-D-Valley/static/js/453.5538221f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.632c063c.css",
-    "static/js/main.97a4214e.js"
+    "static/js/main.c04b8091.js"
   ]
 }
