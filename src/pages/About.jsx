@@ -49,12 +49,12 @@ const About = () => {
           <p>
             This website is designed and developed by <strong>Mohammed Anas</strong>, a passionate developer and food enthusiast who combined clean UI design with culinary passion.
           </p>
-          <p><strong>Email:</strong> <a href="mailto:anasdeveloper@email.com">anasdeveloper@email.com</a></p>
+          <p><strong>Email:</strong> <a href="mailto:anasdeveloper@email.com">mohammedanasp1234@gmail.com</a></p>
           <div className="social-links">
-            <a href="https://github.com/anas-dev" target="_blank" rel="noopener noreferrer">
+            <a href="mohammedanasp1234@gmail.com" target="_blank" rel="noopener noreferrer">
               <FaGithub className="icon" /> GitHub
             </a>
-            <a href="https://linkedin.com/in/anas-dev" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/anaspalakkal" target="_blank" rel="noopener noreferrer">
               <FaLinkedin className="icon" /> LinkedIn
             </a>
             <a href="https://instagram.com/anas.food.dev" target="_blank" rel="noopener noreferrer">
@@ -65,31 +65,31 @@ const About = () => {
       </div>
 
       {/* Footer */}
-<footer className="site-footer">
-  <div className="footer-content">
-    <div className="footer-logo-text">
-      <a href="/" className="footer-logo-link">
-        Foo<span className="logo-d">D</span> Valley
-      </a>
-    </div>
+      <footer className="site-footer">
+        <div className="footer-content">
+          <div className="footer-logo-text">
+            <a href="/" className="footer-logo-link">
+              Foo<span className="logo-d">D</span> Valley
+            </a>
+          </div>
 
-    <div className="footer-links">
-      <a href="/">Home</a>
-      <a href="/recipes">Recipes</a>
-      <a href="/saved">Favourites</a>
-      <a href="/about">About</a>
-    </div>
+          <div className="footer-links">
+            <a href="/">Home</a>
+            <a href="/recipes">Recipes</a>
+            <a href="/saved">Favorites</a>
+            <a href="/about">About</a>
+          </div>
 
-    {/* ✅ Add this line below the links */}
-    <p style={{ marginTop: "20px", fontSize: "0.9rem", color: "#b0413e" }}>
-      © 2025 Foo D Valley. All rights reserved.
-    </p>
+          {/* ✅ Add this line below the links */}
+          <p style={{ marginTop: "20px", fontSize: "0.9rem", color: "#b0413e" }}>
+            © 2025 Foo D Valley. All rights reserved.
+          </p>
 
-    <button className="back-to-top" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
-      Back to Top
-    </button>
-  </div>
-</footer>
+          <button className="back-to-top" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
+            Back to Top
+          </button>
+        </div>
+      </footer>
     </>
   );
 };
